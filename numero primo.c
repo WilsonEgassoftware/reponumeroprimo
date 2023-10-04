@@ -8,7 +8,7 @@ int main(){
     scanf("%d", &numero);
        
     if (numero > 2){//realizamos la condiciòn al respecto
-       (divisor=numero/2);
+       (divisor=numero/2);//hacemos la divison del mismo numero entre 2
       printf ("El numero es primo");
     }
     else{ //evaluamos los datos
