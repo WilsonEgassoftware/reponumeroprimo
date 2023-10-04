@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int numero ,i;// iniciualizar valores
+    int numero ,i,j;// iniciualizar valores
     int divisor=2;
 
 
@@ -11,11 +11,11 @@ int main(){
        (divisor=numero/2);
       printf ("El numero es primo");
     }
-    else{ //evaluamos
+    else{ //evaluamos los datos
         (numero == 0);
         (divisor/2);
-        printf("El numero no es primo");
+        printf("El numero no es primo");//buscamos obtener un reslutado al respecto
     }
-  return 0;
+  return 0;//finalizamos el programa
 
 }
